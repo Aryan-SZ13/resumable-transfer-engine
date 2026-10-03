@@ -27,3 +27,14 @@ export 'src/domain/recovery/cold_start_recovery_service.dart';
 // SQLite Infrastructure
 export 'src/infrastructure/persistence/sqlite/sqlite_transfer_database.dart';
 export 'src/infrastructure/persistence/sqlite/sqlite_transfer_repository.dart';
+
+// Transport Abstraction & Models
+export 'src/domain/transport/transfer_transport.dart';
+export 'src/domain/transport/transport_exceptions.dart';
+export 'src/domain/transport/transport_models.dart';
+export 'src/infrastructure/transport/http/http_transfer_transport.dart';
+
+// Mock Server & Fault Injection
+export 'src/mock_server/fault_injector.dart';
+export 'src/mock_server/mock_transfer_server.dart';
+export 'src/mock_server/server_transfer_state.dart';

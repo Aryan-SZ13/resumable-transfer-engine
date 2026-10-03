@@ -9,6 +9,8 @@ environment:
 dependencies:
   meta: ^1.11.0
   sqlite3: ^2.4.6
+  crypto: ^3.0.3
+  http: ^1.2.0
 
 dev_dependencies:
   test: ^1.25.0
