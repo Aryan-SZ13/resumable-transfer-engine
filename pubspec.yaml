@@ -1,0 +1,15 @@
+name: resumable_transfer_engine
+description: A fault-tolerant resumable file-transfer system with chunk-level persistence and recovery.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  meta: ^1.11.0
+  sqlite3: ^2.4.6
+
+dev_dependencies:
+  test: ^1.25.0
+  lints: ^3.0.0
